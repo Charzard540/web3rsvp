@@ -1,7 +1,6 @@
 const hre = require ("hardhat");
 
 
-
 const main = async () => {
     const rsvpContractFactory = await hre.ethers.getContractFactory("Web3RSVP");
     const rsvpContract = await rsvpContractFactory.deploy();
